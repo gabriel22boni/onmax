@@ -1,0 +1,155 @@
+.paymentMethodGroup{
+	display:none;
+}
+
+
+
+
+#cartData{
+	overflow:hidden;
+	border:solid 5px #555;
+	border-radius:0.5em;
+	background:#EEE;
+	padding:0 0 5em 0;
+	position:relative;
+}
+
+#cartData h4{
+	font-size:2em;
+	padding:0.5em;
+	background:#555;
+	color:#FFF;
+}
+
+#cartData table{
+	margin:0 0 1em 0;
+	padding:0;
+	border-collapse:collapse;
+	width:100%;
+}
+
+#cartData th{
+	font-weight:bold;
+	color:#FFF;
+	background:#555;
+	font-size:1.1em;
+	padding:0.5em;
+	border:solid 1px #999;
+}
+
+#cartData td{
+	padding:0.5em;
+	font-size:1.2em;
+	border:solid 1px #999;
+}
+
+#cartTotal{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	background:#555;
+	color:#FFF;
+	padding:1em;
+	font-size:1.5em;
+}
+
+#cartItemHidden{
+	display:none;
+}
+
+#installmentsWrapper{
+	display:none;
+}
+
+#paymentMethodLoading{
+	display:none;
+}
+
+#holderData{
+	display:none;
+}
+
+
+#cardBrand{
+	background:no-repeat right 10px;
+}
+
+.cardBrand { background-repeat: no-repeat !important; background-position: top right !important; }
+.cardBrand[brand='visa']{ background-image:url('../../img/bandeiras/visa.png'); }
+.cardBrand[brand='mastercard']{ background-image:url('../../img/bandeiras/mastercard.png'); }
+.cardBrand[brand='amex']{ background-image:url('../../img/bandeiras/amex.png'); }
+.cardBrand[brand='hipercard']{ background-image:url('../../img/bandeiras/hipercard.png'); }
+.cardBrand[brand='diners']{ background-image:url('../../img/bandeiras/diners.png'); }
+.cardBrand[brand='elo']{ background-image:url('../../img/bandeiras/elo.png'); }
+.cardBrand[brand='aura']{ background-image:url('../../img/bandeiras/aura.png'); }
+.cardBrand[brand='personal']{ background-image:url('../../img/bandeiras/personal.png'); }
+.cardBrand[brand='valecard']{ background-image:url('../../img/bandeiras/valecard.png'); }
+.cardBrand[brand='brasilcard']{ background-image:url('../../img/bandeiras/brasilcard.png'); }
+.cardBrand[brand='fortbrasil']{ background-image:url('../../img/bandeiras/fortbrasil.png'); }
+.cardBrand[brand='cabal']{ background-image:url('../../img/bandeiras/cabal.png'); }
+.cardBrand[brand='mais']{ background-image:url('../../img/bandeiras/mais.png'); }
+.cardBrand[brand='avista']{ background-image:url('../../img/bandeiras/avista.png'); }
+.cardBrand[brand='grandcard']{ background-image:url('../../img/bandeiras/grandcard.png'); }
+.cardBrand[brand='sorocred']{ background-image:url('../../img/bandeiras/sorocred.png'); }
+
+
+#boletoData{
+	background:url('../../img/boleto.png') no-repeat 0 0;
+	padding:15px 0 0 0;
+}
+
+.bank-flag{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	overflow:hidden;
+	text-indent:-999px;
+	background:no-repeat center center;
+	border:solid 1px #AAA;
+	border-radius:0.5em;
+	margin:0 0.8em;
+	cursor:pointer;
+	background-color:#FFF;
+}
+.bank-flag:hover{
+	border-color:#000;
+}
+
+.bank-flag.bancodobrasil{ background-image:url('../../img/bandeiras/bancodobrasil.png'); }
+.bank-flag.itau{ background-image:url('../../img/bandeiras/itau.png'); }
+.bank-flag.bradesco{ background-image:url('../../img/bandeiras/bradesco.png'); }
+.bank-flag.banrisul{ background-image:url('../../img/bandeiras/banrisul.png'); }
+.bank-flag.hsbc{ background-image:url('../../img/bandeiras/hsbc.png'); }
+
+
+.errors{
+	font-size:1.2em;
+	color:red;
+	padding:2em 0;
+}
+.success{
+	color:green;
+}
+
+
+
+
+
+#modalPagamentoPagSeguro .modal-title { color: #263238; font-family: "Open Sans", sans-serif; font-size: 32px; font-weight: 800; letter-spacing: -2px; text-align: center; text-transform: uppercase; }
+#modalPagamentoPagSeguro label { color: #263238; font-family: "Roboto", sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+#modalPagamentoPagSeguro input.form-control { }
+#modalPagamentoPagSeguro .modal-footer button { border: medium none; border-radius: 4px; color: #fff; font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 400; }
+#modalPagamentoPagSeguro .modal-footer button:hover { opacity: 0.7 }
+#modalPagamentoPagSeguro .modal-footer button.cancelar { background: #999; }
+#modalPagamentoPagSeguro .modal-footer button.enviar { background: #4a667c; }
+
+#modalPagamentoPagSeguro h2.modal-title{ font-size: 20px !important; text-align: left; }
+
+#modalPagamentoPagSeguro .form-group { margin-bottom: 7px; }
+
+
+
+#cboxLoadedContent h1 {
+    margin-top: 0px;
+}

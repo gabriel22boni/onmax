@@ -1,0 +1,877 @@
+/***Comum***/
+
+#btn-download{
+	    background: #00295b none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    max-width: 360px;
+    padding: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-title-bar {
+	padding: 40px 0;
+	/*
+-webkit-background-size: cover!important;
+-moz-background-size: cover!important;
+-o-background-size: cover!important;
+background-size: cover!important; */
+}
+
+.page-title-bar h1 {
+	color: #fff;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 36px;
+	margin-bottom: 0;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+}
+
+.page-title-bar h1:after {
+	border-bottom: 3px solid #fb4f14;
+	content: "";
+	display: block;
+	margin: 12px 0;
+	max-width: 40%;
+}
+
+.page-title-bar ol.breadcrumb {
+	background: none;
+	padding-left: 0
+}
+
+.page-title-bar ol.breadcrumb li.active {
+	font-family: "Oswald", sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.page-title-bar ol.breadcrumb li a {
+	font-family: "Oswald", sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.inner {
+	padding: 30px 0 50px
+}
+
+.inner p {
+	color: #757575;
+	display: block;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 300;
+}
+
+h3.subtitle {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+h3.subtitle:after {
+	border-bottom: 3px solid #fb4f14;
+	content: "";
+	display: block;
+	margin-top: 10px;
+	max-width: 40%;
+}
+
+.sidebar-bloco {
+	margin-bottom: 50px
+}
+
+.sidebar-bloco h2 {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+.sidebar-bloco h2:after {
+	border-bottom: 3px solid #fb4f14;
+	content: "";
+	display: block;
+	max-width: 40%;
+	margin: 5px 0 0
+}
+
+.sidebar-bloco ul li a {
+	color: #003d56;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	padding: 5px 2px;
+	text-transform: uppercase;
+}
+
+.form-matricula {
+	background: #f5f5f5;
+	overflow: hidden
+}
+
+.form-matricula .titulo {
+	background: #fb4f14;
+	color: white;
+	height: 55px;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 25px
+}
+
+.form-matricula .titulo:before {
+	background: #fb4f14;
+	bottom: -7px;
+	content: "";
+	display: block;
+	height: 25px;
+	position: absolute;
+	transform: rotate(4deg);
+	width: 51%;
+	z-index: 1;
+	left: 0
+}
+
+.form-matricula .titulo:after {
+	background: #fb4f14;
+	bottom: -7px;
+	content: "";
+	display: block;
+	height: 25px;
+	position: absolute;
+	right: 0;
+	transform: rotate(-4deg);
+	width: 51%;
+	z-index: 1;
+}
+
+.form-matricula .titulo h3 {
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 15px 0;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 3;
+}
+
+.form-matricula form.matricula {
+	padding: 0 10px
+}
+
+form.matricula .input {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+form.matricula .input textarea,
+form.matricula .input input {
+	border: 1px solid #e0e0e0;
+	color: #717171;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	padding: 5px 30px 5px 10px;
+	width: 100%;
+}
+
+form.matricula .input textarea {
+	height: 70px;
+	resize: none
+}
+
+form.matricula .input span {
+	color: #003d56;
+	font-size: 22px;
+	position: absolute;
+	right: 3px;
+	top: 6px;
+}
+
+.form-matricula button.btn-send {
+	background: #00295b none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	border: none;
+	width: 100%;
+}
+
+form.matricula button.btn-send i {
+	margin-left: 10%
+}
+
+form.matricula button.btn-send:hover {
+	background: #fb4f14;
+	text-decoration: none
+}
+
+.social-share {
+	float: right;
+	text-align: right;
+}
+
+.social-share a {
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 2px;
+	text-align: center;
+	text-decoration: none;
+	width: 30px;
+}
+
+.social-share a:hover {
+	background: #fb4f14!important;
+}
+
+
+/* ==========================================================================
+Quem Somos
+========================================================================== */
+
+.sobre .video-block {
+	-webkit-background-size: cover!important;
+	-moz-background-size: cover!important;
+	-o-background-size: cover!important;
+	background-size: cover!important;
+	padding: 60px 0;
+	margin: 30px 0
+}
+
+.sobre .video-container {
+	background: rgba(0, 0, 0, 0) url("../img/mac-mockup.png") no-repeat scroll left top / cover;
+	height: 431px;
+	margin: auto;
+	max-width: 100%;
+	padding: 25px 85px 50px;
+	position: relative;
+	width: 750px;
+}
+
+.sobre .video-container .video {
+	border: 4px solid #0c0d11;
+	border-radius: 4px;
+	height: 363px;
+	max-height: 363px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.sobre .video-container .video iframe {
+	max-height: 100%;
+}
+
+.sobre .video-block h2 {
+	color: #fff;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0
+}
+
+.sobre .video-block h2:after {
+	border-bottom: 3px solid #00295b;
+	content: "";
+	display: block;
+	margin: 15px auto 40px;
+	width: 150px;
+}
+
+.sobre #accordion .panel-title > a {
+	display: block;
+	padding: 0.4em 0.6em;
+	outline: none;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sobre #accordion .panel-title > a.accordion-toggle::after,
+.sobre #accordion a[data-toggle="collapse"]::after {
+	content: "\f106";
+	float: right;
+	font-family: 'FontAwesome';
+	margin-right: 1em;
+}
+
+.sobre #accordion .panel-title > a.accordion-toggle.collapsed::after,
+.sobre #accordion a.collapsed[data-toggle="collapse"]::after {
+	content: "\f107";
+}
+
+.sobre .question {
+	background: #e0e0e0;
+	margin: 10px 0;
+}
+
+.sobre .question .panel-heading {
+	padding: 3px 0 3px 10px;
+}
+
+.sobre .question a {
+	color: #003d56;
+	font-family: "Oswald", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	display: block
+}
+
+.sobre .question:hover a {
+	text-decoration: none;
+	color: #fff
+}
+
+.sobre .question:hover .panel-heading {
+	background: #00295b;
+}
+
+.sobre .question .panel-body ul {
+	padding-left: 0
+}
+
+.sobre .question .panel-body ul li {
+	color: #757575;
+	display: block;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.sobre h4 {
+	color: #221f1f;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 26px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.sobre .video-container .video {
+		width: 105%
+	}	
+}
+
+@media (max-width: 767px) {
+	.sobre .video-container {
+		background: none;
+		height: auto;
+		padding: 0
+	}
+	.sobre .video-container .video {
+		height: auto;
+		border: none
+	}
+	.noticia article .entry-header .entry-title {
+		font-size: 16px !important;
+		line-height: 24px !important;
+	}
+	.noticia article .entry-header .date-meta{
+		font-size:50px !important;
+	}
+	.noticia article .entry-header .date-meta i{
+		margin-top:0 !important;
+	}
+}
+
+
+/* ==========================================================================
+Corpo docente
+========================================================================== */
+
+.copodocente .person {
+	padding: 40px 0;
+}
+
+.copodocente .person:nth-child(2n+1) {
+	background: #f5f5f5
+}
+
+.copodocente h4.nome {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.copodocente ul li {
+	color: #757575;
+	display: block;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.copodocente .tabbable-line > .nav-tabs {
+	border: none;
+	margin: 0px;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li {
+	margin-right: 2px;
+	border-bottom: 4px solid #e0e0e0;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li > a {
+	border: 0 none;
+	color: #737373;
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	margin-right: 0;
+	line-height: 1;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li > a > i {
+	color: #a6a6a6;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.open,
+.copodocente .tabbable-line > .nav-tabs > li:hover {
+	border-bottom: 4px solid #fcbaa4;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.open > a,
+.copodocente .tabbable-line > .nav-tabs > li:hover > a {
+	border: 0;
+	background: none !important;
+	color: #333333;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.open > a > i,
+.copodocente .tabbable-line > .nav-tabs > li:hover > a > i {
+	color: #a6a6a6;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.open .dropdown-menu,
+.copodocente .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+	margin-top: 0px;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.active {
+	border-bottom: 4px solid #fb4f14;
+	position: relative;
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.active > a {
+	border: 0;
+	color: #333333;
+	background: none
+}
+
+.copodocente .tabbable-line > .nav-tabs > li.active > a > i {
+	color: #404040;
+}
+
+.copodocente .tabbable-line > .tab-content {
+	margin-top: -3px;
+	border: 0;
+	border-top: 1px solid #eee;
+	padding: 15px 0;
+}
+
+.copodocente .portlet .tabbable-line > .tab-content {
+	padding-bottom: 0;
+}
+
+
+/* ==========================================================================
+Agenda
+========================================================================== */
+
+.agenda button {
+	background: #00295b none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	margin: 0 10px 30px;
+	max-width: 200px;
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 30%;
+}
+
+.agenda button:hover {
+	background: #fb4f14 none repeat scroll 0 0;
+	text-decoration: none;
+}
+
+
+/* ==========================================================================
+NotÃƒÂ­cias
+========================================================================== */
+
+article.post {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+}
+
+.noticia article .post-formats-wrapper {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.noticia article .entry-header {
+	margin-bottom: 23px;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+.noticia article.post a:hover {
+	text-decoration: none
+}
+
+.noticia article .entry-header .date-meta {
+	border-right: 1px solid #eee;
+	float: left;
+	font-size: 72px;
+	font-weight: 700;
+	height: 82px;
+	line-height: 58px;
+	margin-right: 30px;
+	width: 110px;
+	color: #00295b;
+	text-align: center
+}
+
+.noticia article .entry-header .date-meta i {
+	display: block;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.noticia article .entry-header .entry-contain {
+	float: right;
+	width: calc(100% - 140px);
+}
+
+.noticia article .entry-header .entry-title {
+	color: #00295b;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	margin: 0
+}
+
+.noticia article a:hover .entry-header .date-meta,
+.noticia article a:hover .entry-header .entry-title {
+	color: #fb4f14;
+	text-decoration: none
+}
+
+.noticia article .entry-header .entry-meta li {
+	border-right: 1px solid #eee;
+	display: inline-block;
+	line-height: 18px;
+	list-style: outside none none;
+	margin-right: 25px;
+	margin-top: 10px;
+	padding-right: 30px;
+}
+
+.noticia article .entry-header .entry-meta li span {
+	color: #ccc;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+.noticia article .entry-meta p {
+	color: #7a7a7a;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.noticia article .entry-header .entry-meta li span.value,
+.noticia article .entry-header .entry-meta li a {
+	color: #7a7a7a;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.noticia article .entry-header .entry-meta li a:hover {
+	color: #fb4f14
+}
+
+.noticia article .readmore {
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 5px;
+	text-transform: uppercase;
+	background: #00295b;
+	color: #fff;
+	border: 0 none;
+	display: inline-block;
+	line-height: 30px;
+	padding: 5px 25px;
+	float: right
+}
+
+.noticia article a:hover .readmore {
+	text-decoration: none;
+	background: #fb4f14
+}
+
+.noticia article a:hover .entry-summary,
+.noticia article a:hover .post-formats-wrapper {
+	opacity: 0.8
+}
+
+
+/* ==========================================================================
+MatrÃƒÂ­cula
+========================================================================== */
+
+.matricula .input {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 0em 0 0;
+	width: 100%;
+	vertical-align: top;
+}
+
+.matricula .input__field {
+	position: relative;
+	display: block;
+	float: right;
+	padding: 0.8em;
+	width: 60%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #aaa;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+	-webkit-appearance: none;
+	font-size: 14px
+}
+
+.matricula .input__field:focus {
+	outline: none;
+}
+
+.matricula .input__label {
+	display: inline-block;
+	float: right;
+	padding: 0 1em;
+	width: 40%;
+	color: #696969;
+	font-weight: bold;
+	font-size: 14;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.matricula .input__label-content {
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+
+.matricula .input__field--yoshiko {
+	width: 100%;
+	background-color: #d0d1d0;
+	border: 2px solid transparent;
+	-webkit-transition: background-color 0.25s, border-color 0.25s;
+	transition: background-color 0.25s, border-color 0.25s;
+}
+
+.matricula .input__label--yoshiko {
+	width: 100%;
+	text-align: left;
+	position: absolute;
+	bottom: 100%;
+	pointer-events: none;
+	overflow: hidden;
+	padding: 0 1.25em;
+	-webkit-transform: translate3d(0, 3em, 0);
+	transform: translate3d(0, 3em, 0);
+	-webkit-transition: -webkit-transform 0.25s;
+	transition: transform 0.25s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+.matricula .input__label-content--yoshiko {
+	color: #8B8C8B;
+	padding: 0.25em 0;
+	-webkit-transition: -webkit-transform 0.25s;
+	transition: transform 0.25s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+.matricula .input__label-content--yoshiko::after {
+	content: attr(data-content);
+	position: absolute;
+	font-weight: 800;
+	bottom: 100%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	color: #fb4f14;
+	padding: 0.25em 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.85em;
+}
+
+.matricula .input__field--yoshiko:focus + .input__label--yoshiko,
+.matricula .input--filled .input__label--yoshiko {
+	-webkit-transform: translate3d(0, 10px, 0);
+	transform: translate3d(0, 10px, 0);
+}
+
+.matricula .input__field--yoshiko:focus + .input__label--yoshiko .input__label-content--yoshiko,
+.matricula .input--filled .input__label-content--yoshiko {
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+
+.matricula .input__field--yoshiko:focus + .input__field--yoshiko,
+.matricula .input--filled .input__field--yoshiko {
+	background-color: transparent;
+	border-color: #fb4f14;
+}
+
+.matricula a.btn-matricula {
+	background: #00295b none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	margin: 0 auto;
+	max-width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.matricula a.btn-matricula:hover {
+	background: #fb4f14 none repeat scroll 0 0;
+	text-decoration: none;
+}
+
+.matricula .formulario-matricula h3 {
+	color: #221f1f;
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+form.formulario-matricula .input {
+    margin: 1em 0 !important;
+}
+
+.polo{
+    display: flex;    
+    margin-bottom:20px;  
+}
+
+.polo iframe{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.polo a{
+	color: #757575;
+	text-decoration: none;
+}
+
+.polo .clearfix {
+	border-bottom: 2px solid #00295b;
+	 margin-bottom: 30px; 
+}
+
+.polo .infos{
+	float: left;
+	color: #757575;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-bottom:15px;
+}
+
+.btn-matricula {
+	margin-top:20px;
+	color:#FFF !important;
+}
+
+.polo .icone i {
+    color: #fb4f14;
+    float: left;
+    font-size: 36px;
+    margin-right: 15px;
+    height: 60px;
+}
+
+.polo h2{
+	color: #221f1f;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+
+.polo h2:after {
+    border-bottom: 3px solid #fb4f14;
+    content: "";
+    display: block;
+    margin: 12px 0 0;
+    max-width: 40%;
+}

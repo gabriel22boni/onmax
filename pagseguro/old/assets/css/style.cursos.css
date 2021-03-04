@@ -1,0 +1,401 @@
+/* ==========================================================================
+Eventos
+========================================================================== */
+
+.evento h2 {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	margin: 0 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.evento h2:after {
+	border-bottom: 3px solid #fb4f14;
+	content: "";
+	display: block;
+	margin: 12px 0 0;
+	max-width: 40%;
+}
+
+.evento .infos-curso .head-curso span.price {
+	color: #fb4f14;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.evento .infos-curso .body-curso .bloco ul {}
+
+.evento .infos-curso .body-curso .bloco h3.section-title {
+	border-bottom: 1px solid #eee;
+	color: #00295b;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.evento .infos-curso .bloco {
+	margin: 30px 10px
+}
+
+.evento .infos-curso .bloco ul li {
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	line-height: 25px;
+	list-style: outside none none;
+	padding: 5px 10px;
+}
+
+.evento .infos-curso {
+	background: #fcfcfc
+}
+
+.evento .infos-curso .bloco ul li .fa {
+	font-size: 18px;
+	line-height: 25px;
+	text-align: left;
+	vertical-align: middle;
+	width: 20px;
+	color: #fb4f14;
+}
+
+.evento .infos-curso .bloco ul li span {
+	display: inline-block;
+}
+
+.evento .infos-curso .bloco ul li span.label {
+	color: #757575;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.evento .infos-curso .bloco ul li .value a,
+.evento .infos-curso .bloco ul li .value {
+	float: right;
+	font-weight: 300;
+	min-width: 60px;
+	text-align: right;
+	color: #333
+}
+
+.evento .infos-curso .bloco span {}
+
+.evento .infos-curso .bloco p {}
+
+.evento .infos-curso .bloco ul li span.price {
+	color: #00295b;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 26px;
+	margin: 0;
+	padding-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.evento.inner h5 {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.panel-heading {
+	margin: 10px 0;
+	padding: 0;
+	border-bottom: 1px solid #eee
+}
+
+.panel-heading a {
+	color: #221f1f;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	padding: 0 10px 10px;
+	text-transform: uppercase;
+}
+
+.panel-heading a:hover {
+	color: #fb4f14;
+	text-decoration: none
+}
+
+.panel-heading a.collapsed:after {
+	content: "\f107";
+	float: right;
+	font-family: 'FontAwesome';
+	margin-right: 1em;
+}
+
+.panel-heading a::after {
+	content: "\f106";
+	float: right;
+	font-family: 'FontAwesome';
+	margin-right: 1em;
+}
+
+.panel-body {
+	border: none;
+	padding: 5px 15px 30px;
+}
+
+.panel-body span {}
+
+.evento .panel-group {
+	margin-top: 50px;
+}
+
+.btn-matricula {
+	background: #00295b none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	margin: 0 auto;
+	max-width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btn-matricula:hover {
+	background: #fb4f14 none repeat scroll 0 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* ==========================================================================
+Curso
+========================================================================== */
+
+.curso h2 {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.curso h2:after {
+	border-bottom: 3px solid #fb4f14;
+	content: "";
+	display: block;
+	margin: 12px 0 0;
+	max-width: 40%;
+}
+
+.curso a.btn-matricula {
+	float: right;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 5px 0 15px;
+	padding: 12px 20px;
+}
+
+.curso span.price {
+	color: #221f1f;
+	display: inline-block;
+	float: right;
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+	margin: 12px 20px;
+	text-transform: uppercase;
+}
+
+.table tbody>tr>td {
+	vertical-align: middle;
+}
+
+.curso .sidebar-bloco .table {
+	border: 1px solid #dddddd;
+}
+
+.curso .sidebar-bloco .table span {
+	display: block;
+	line-height: 1.2;
+	text-align: center;
+	font-size: 13px;
+}
+
+.curso .sidebar-bloco .table span.lbb {
+	color: #003d56;
+	font-family: "Oswald", sans-serif;
+	font-size: 13px;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+
+.curso span.price sup {
+	font-size: 14px;
+}
+
+.curso .course-tabs {
+	margin-top: 30px
+}
+
+.curso .course-tabs .nav-tabs {
+	border: none;
+	margin: 0;
+}
+
+.curso .course-tabs .nav-tabs li {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 0;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	width: 25%;
+	border-bottom: 1px solid #ddd;
+}
+
+.curso .course-tabs .nav-tabs li a {
+	background: #f9f9f9;
+	font-size: 13px;
+	line-height: 29px;
+	margin-right: 0;
+	border-radius: 0;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	color: #003d56;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+.curso .course-tabs .nav-tabs li a .fa {
+	font-size: 13px;
+	line-height: 29px;
+	margin-right: 8px;
+	vertical-align: middle;
+	color: #fb4f14
+}
+
+.curso .course-tabs .nav-tabs li.active {
+	background: #fff none repeat scroll 0 0;
+	border-bottom: none
+}
+
+.curso .course-tabs .nav-tabs li.active a {
+	background: #fff none repeat scroll 0 0;
+}
+
+.curso .course-tabs .tab-content {
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-top: none
+}
+
+.curso .course-tabs .nav-tabs li.active::before {
+	background: #fb4f14;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	right: 1px;
+	top: 0;
+	z-index: 10;
+}
+
+.curso.inner .course-tabs .tab-pane ul li {
+	margin-bottom: 15px
+}
+
+.curso.inner .course-tabs .tab-pane .prof img.img-responsive {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #eeeeee;
+	border-radius: 50%;
+	float: left;
+	height: 65px;
+	margin-right: 15px;
+	padding: 2px;
+	width: 65px;
+}
+
+.curso.inner .course-tabs .tab-pane .prof span {
+	color: #221f1f;
+	display: inline-block;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 18px;
+	text-transform: uppercase;
+}
+
+.curso .tab-content .review-text h4.author-name {
+	color: #003d56;
+	font-family: "Oswald", sans-serif;
+	font-size: 18px;
+	margin: 0 0 5px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+	.curso .course-tabs .nav-tabs li a span {
+		display: none
+	}
+	.curso .course-tabs .nav-tabs li a .fa {
+		font-size: 23px
+	}
+	.panel-heading a {
+		background: #eee none repeat scroll 0 0;
+		font-size: 12px;
+		padding: 10px 0 10px 5px;
+	}
+	.curso .tab-content .review-text h4.author-name {
+		text-align: center;
+		margin: 10px auto
+	}
+	.inner p {
+		text-align: justify
+	}
+}
+
+
+/*
+h2 {
+	color: #fff;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	line-height: 67px
+}
+
+h2:after {
+	border-bottom: 3px solid #fb4f14;
+	content: "";
+	display: block;
+	margin-top: 10px;
+	max-width: 125px;
+}
+
+p {
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 22px;
+	line-height: 34px
+}
+*/
+
+
+
+
+.curso .panel-group table { width: 100% !important; }
+.curso .panel-group table td	 { width:auto !important; padding:2px 5px }

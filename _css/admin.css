@@ -1,0 +1,331 @@
+@charset "iso-8859-1";
+/****************************
+**
+** Reset CSS
+**
+****************************/
+html, body, div, span, applet, object, iframe,  caption, tbody, tfoot, thead, tr, th, td, del, dfn,
+em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, fieldset, form, label, legend {
+    font-family: inherit;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+
+
+/****************************
+**
+** Geral
+**
+****************************/
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+a {
+	color:#000099;
+}
+a:hover {
+	color:#CC0000;
+}
+.clearall {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	clear: both;
+}
+
+/****************************
+**
+**       #MASTER
+**
+****************************/
+div#master{
+	min-height:100%; /* Para browsera modernos */
+	height:auto !important; /* Para browsera modernos */
+	height:100%; /* Para o IE6 */
+	margin: auto;
+	position:relative;
+	z-index:0;
+}
+
+/****************************
+**
+**       Alerta de mensagens
+**
+****************************/
+.alert_messages {
+	text-align:center;
+	background-color:#F85555;
+	color:#FFF;
+	border:solid 1px #F30;
+	font-size:18px;
+	padding:6px 10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.success_messages {
+	text-align:center;
+	background-color:#89E16E;
+	color:#FFF;
+	font-size:18px;
+	padding:6px 10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/****************************
+**
+**       #MASTER_TOP
+**
+****************************/
+#master_top{
+	background:url(../_img/admin/bg_topo.gif) repeat-x;
+	height:55px;
+}
+#master_top .logo_adm{
+	float:left;
+}
+#master_top .logo_adm img{
+	max-height:45px;
+	margin:5px 0 0 30px;
+}
+#master_top h1.titulo {
+    color: #118EB2;
+    font-size: 30px;
+    line-height: 55px;
+	display:inline-block;
+	margin-left:15px;
+}
+#master_top h1.usuario {
+	float:right;
+	font-size:14px;
+	text-align:right;
+	margin:0;
+	margin-right:100px;	
+	padding:0;
+	padding-top:20px;
+}
+
+/****************************
+**
+**       #MENU
+**
+****************************/
+#menu {
+	
+}
+.menu_list {
+	margin-right:20px;
+}
+.menu_head {
+	padding: 5px 10px;
+	width:200px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+    font-weight:bold;
+    color:#ffffff;
+    font-size:14px;
+    background: #666666 center right no-repeat;
+}
+.menu_head_titulo {
+	padding: 5px 10px;
+	width:200px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+    font-weight:bold;
+    color:#666666;
+    font-size:14px;
+    background: #DDDDDD center right no-repeat;
+}
+.menu_body {
+	display:none;
+}
+.menu_body a{
+  display:block;
+  color:#000000;
+  width:205px;
+  background-color:#EFEFEF;
+  padding-left:10px;
+  font-weight:bold;
+  text-decoration:none;
+  padding:8px;
+  font-size:12px;
+  border-bottom:1px solid #fff;
+}
+.menu_body a:hover{
+  color: #000000;
+  text-decoration:underline;
+}
+a.link_menu:link,
+a.link_menu:active,
+a.link_menu:hover,
+a.link_menu:visited { 
+	color:#fff;
+	text-decoration: none;
+}
+a.link_menu:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+/****************************
+**
+**       #MASTER_CONTENT
+**
+****************************/
+div.sucesso {
+	color:#F00;
+	font-size:14px;
+	margin-left:250px;
+	margin-bottom:20px;
+	font-weight:bold;
+}
+.aplicar {
+	background-image:url(../_img/admin/bnt_aplicar.gif);
+	width:73px;
+	height:22px;
+	border:none;
+}
+.btn_buscar {
+    background-image: url(../_img/admin/btn_buscar.gif);
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 73px;
+}
+.error {
+	color:#F00;
+	display:block;
+}
+span.font_admin {
+	font-size:12px;
+	font-weight:bold;
+}
+.button {
+	font-size:0;
+}
+table.check_tags {
+	/* width="610" style="background-color:#FFFFFF; margin:5px 10px;max-height:100px;overflow-y:scroll;border-collapse:1px solid #000000;"*/
+	width:610px;
+	background-color:#FFFFFF;
+	margin:5px 10px;
+	border-collapse:1px solid #000000;
+}
+table.check_tags tr {
+	vertical-align:top;
+}
+.editar_inserir_view {
+	width:650px;
+	background-color:#EFEFEF;
+	padding:15px;
+}
+.editar_inserir_view img {
+	max-width:650px;
+	max-height:200px;
+}
+h1 {
+	margin-bottom: 30px;
+}
+h2 {
+	margin:20px 0 5px;
+}
+.editar_inserir_view input#btn_inserir_editar {
+	margin-top:20px;
+}
+/****************************
+**
+**     TABELA CONTEUDO
+**
+****************************/
+.bordaBox {bbackground: ttransparent; width:98%;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b4, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b, .bordaBox .b4b {display:block; overflow:hidden; font-size:1px;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b {height:1px;}
+.bordaBox .b2, .bordaBox .b3, .bordaBox .b4 { border-left:1px solid #999; border-right:1px solid #999;background-color: #EEEEEE;}
+.bordaBox .b1 {margin:0 5px; background:#999;}
+.bordaBox .b2 {margin:0 3px; border-width:0 2px;}
+.bordaBox .b3 {margin:0 2px;}
+.bordaBox .b4 {height:2px; margin:0 1px;}
+.bordaBox .conteudo {display:block; border-left:1px solid #999; border-right:1px solid #999;}
+.bordaBox .conteudo thead tr {background:url(../_img/admin/bg_area.gif) repeat-x scroll 0 -1px transparent; color:#000;}
+.bordaBox .conteudo tbody tr {background:#FFFFFF;}
+.bordaBox .conteudo tbody tr:nth-child(2n+0) {background:#EEEEEE;}
+.bordaBox .conteudo td {padding:5px;}
+
+/****************************
+**
+**       PAGINACAO
+**
+****************************/
+.paginacao{
+	margin-top:20px;
+	text-align:center;
+	color:#118eb2;
+	margin: 25px 10px;
+}
+.maximo_per_page_admin{
+	float: right;
+    text-align: right;
+}
+.paginacao a{
+	color:inherit;
+	text-decoration:none;
+}
+.paginacao_anterior{
+	background:url(../_img/prev_pagination.jpg) no-repeat center left;
+	font-size:12px;
+	padding-left:30px;
+	margin-right:10px;
+}
+.paginacao_proximo{
+	background:url(../_img/next_pagination.jpg) no-repeat center right;
+	font-size:12px;
+	padding-right:30px;
+	margin-left:10px;
+}
+.paginacao_atual{
+	padding:4px 6px;
+	margin: 0 2px;
+	background-color:#118eb2;
+	color:#FFFFFF;
+}
+.paginacao_numero{
+	margin: 0 2px;
+}
+
+/****************************
+**
+**       #FOOTER
+**
+****************************/
+#footer {
+	background-color:#CCC;
+	height:30px;
+	width:100%;
+}
+#texto_footer {
+	margin:0;
+	margin-left:10px;
+	margin-top:5px;
+	text-align:left;
+	padding:0;
+}
+#logo_orange {
+	margin-top:2px;
+}

@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Allow: /www.onmax.com/
+Allow: /contato
+
+
+Sitemap: http://www.onmax.com.br/sitemap.xml

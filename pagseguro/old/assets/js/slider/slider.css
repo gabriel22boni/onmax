@@ -1,0 +1,235 @@
+	#slider #mainslider .item {
+	    min-height: 100vh;
+	}
+	/*Arrows*/
+	
+	#slider .carousel-control.left,
+	#slider .carousel-control.right {
+	    background: none;
+	    opacity: 1;
+	    width: 50px;
+	    right: 1px;
+	}
+	
+	#slider .carousel-control span {
+	    display: inline-block;
+	    font-size: 18px;
+	    left: 0;
+	    opacity: 1;
+	    padding: 10px 18px;
+	    position: absolute;
+	    text-align: center;
+	    top: 50%;
+	    z-index: 5;
+	    font-size: 26px
+	}
+	
+	#slider a.right.carousel-control span {
+	    right: 0;
+	    left: auto;
+	}
+	
+	#slider .carousel-control span:hover {
+	    opacity: 0.5
+	}
+	/**Bullets**/
+	
+	#slider .carousel-indicators li {
+	    border-radius: 0;
+	    height: 3px;
+	    width: 15px;
+	}
+	
+	#slider .carousel-indicators .active {
+	    background: #fff;
+	    border-color: #fff
+	}
+	
+	#slider .carousel-caption {
+	    top: 50% !important;
+	    transform: translateY(-40%);
+	    bottom: initial;
+	    font-family: 'Oswald', sans-serif;
+	}
+	
+	#slider .carousel-caption div {
+	    background: rgba(12, 20, 23, 0.8);
+	    padding: 30px 15px
+	}
+	
+	#slider .carousel-indicators,
+	#slider .carousel-control span {
+	    opacity: 0;
+	    -webkit-transition: all 250ms ease-out;
+	    -moz-transition: all 250ms ease-out;
+	    transition: all 250ms ease-out;
+	}
+	
+	#slider:hover .carousel-indicators,
+	#slider:hover .carousel-control span {
+	    opacity: 1;
+	}
+	
+	#slider .carousel-indicators {
+	    bottom: 30px;
+	}
+	
+	#slider #mainslider ol.carousel-indicators li {
+	    background: #fb4f14;
+	    border-color: #fb4f14;
+	    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5)
+	}
+	
+	#slider #mainslider ol.carousel-indicators li.active {
+	    background: #fff;
+	    border-color: #fff;
+	    margin: 1px
+	}
+	/**Estilo Conteudo**/
+	
+	#slider .carousel-caption p {
+	    color: #fff;
+	    font-size: 22px;
+	    font-weight: 300;
+	    padding: 5px 0;
+	    text-align: center;
+	    text-shadow: none;
+	}
+	
+	#slider .carousel-caption h3 {
+	    color: #fff;
+	    display: block;
+	    font-size: 55px;
+	    font-weight: 800;
+	    text-align: center;
+	    text-transform: uppercase;
+	    margin: 0;
+	    letter-spacing: 2px
+	}
+	
+	#slider .carousel-caption h4 {
+	    color: #fff;
+	    display: block;
+	    font-size: 36px;
+	    font-weight: 800;
+	    text-align: center;
+	    text-transform: uppercase;
+	    margin: 0
+	}
+	
+	#slider .carousel-caption a {
+	    border: 2px solid #fff;
+	    color: #fff;
+	    display: block;
+	    font-size: 20px;
+	    font-weight: 300;
+	    margin: 20px auto 0;
+	    padding: 10px 40px;
+	    text-shadow: none;
+	    text-transform: uppercase;
+	    max-width: 245px;
+	}
+	
+	#slider .carousel-caption a:hover {
+	    background: rgba(239, 242, 243, 1);
+	    text-decoration: none;
+	    color: #000
+	}
+	/** Orientação **/
+	
+	#slider .carousel-caption.left {
+	    left: 15%;
+	    right: auto;
+	    width: 50%;
+	    text-align: left
+	}
+	
+	#slider .carousel-caption.right {
+	    right: 15%;
+	    left: auto;
+	    width: 50%;
+	    text-align: right
+	}
+	
+	.carousel-caption.left a {
+	    float: left;
+	    margin-left: 8% !important;
+	}
+	
+	.carousel-caption.right a {
+	    float: right;
+	    margin-right: 8% !important;
+	}
+	/** Slider Responsivo **/
+	
+	@media (max-width: 1199px) {
+	    #slider .carousel-caption h3 {
+	        font-size: 52px;
+	        line-height: 0.9;
+	    }
+	    #slider .carousel-caption p {
+	        font-size: 18px;
+	        padding: 0;
+	    }
+	    #slider .carousel-caption a {
+	        font-size: 18px
+	    }
+	}
+	
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+	    #slider .carousel-caption.left {
+	        left: 10%;
+	        width: 50%
+	    }
+	    #slider .carousel-caption.right {
+	        right: 10%;
+	        width: 50%
+	    }
+	}
+	
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+	    #slider .carousel-caption.left {
+	        left: 10%;
+	        width: 80%
+	    }
+	    #slider .carousel-caption.right {
+	        right: 10%;
+	        width: 80%
+	    }
+	}
+	
+	@media (max-width: 544px) {
+	    #slider .carousel-control.left,
+	    #slider .carousel-control.right {
+	        width: 30px
+	    }
+	    #slider .carousel-caption.left {
+	        left: 12%;
+	        width: 80%
+	    }
+	    #slider .carousel-caption.right {
+	        right: 12%;
+	        width: 80%
+	    }
+	    #slider .carousel-caption h3 {
+	        font-size: 45px
+	    }
+	    #slider .carousel-caption p {
+	        font-size: 14px
+	    }
+	    #slider .carousel-caption a {
+	        font-size: 16px;
+	        padding: 10px 15px;
+	    }
+	    #slider .carousel-control span {
+	        padding: 0
+	    }
+	}
+	
+	#mainslider .pattern {
+	    background: rgba(0, 0, 0, 0) url("../../img/pattern.png") repeat scroll 0 0;
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	}

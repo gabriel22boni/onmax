@@ -1,0 +1,2 @@
+[30-Apr-2020 02:01:37 UTC] PHP Warning:  Missing argument 32 for gerarXmlCartao(), called in /home/maxfamacom/public_html/onmax/pagseguro/pagamentoCartao.php on line 66 and defined in /home/maxfamacom/public_html/onmax/pagseguro/gerarXml.php on line 61
+[30-Apr-2020 02:01:38 UTC] PHP Warning:  Missing argument 32 for gerarXmlCartao(), called in /home/maxfamacom/public_html/onmax/pagseguro/pagamentoCartao.php on line 66 and defined in /home/maxfamacom/public_html/onmax/pagseguro/gerarXml.php on line 61
